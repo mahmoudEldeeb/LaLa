@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Lala</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_base_activity">base_activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_id">ca-app-pub-2817140095934646~8220799211</string>
+    <string name="action_settings">Settings</string>
+    <string name="BASE_URL">http://lalaprogram95.890m.com/</string>
+    <string name="points_number">نقطة</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    //d
+    <string name="main">  الرئيسية
+    </string>
+    <string name="sciene"> العلوم والطبيعه
+    </string>
+    <string name="technoloy">التكنولوجيا
+    </string>
+    <string name="sports"> الرياضه
+    </string>
+    <string name="book">الكتب والمجلات
+    </string>
+    <string name="question">
+    استفسارات
+    </string>
+    <string name="goals">
+مباريات اليوم
+    </string>
+    <string name="my_question">
+    استفساراتي
+    </string>
+    <string name="all_question">
+    جميع الاستفسارات
+    </string>
+
+
+    <string name="name">
+
+        الاسم
+    </string>
+
+    <string name="points">
+        50 نقطه
+    </string>
+
+
+    <string name="publish">
+        ارسال
+    </string>
+
+
+    <string name="desc">
+        DescriptionDescriptionDescriptionDescriptionDescriptionDescription
+
+
+
+</string>
+    <string name="order_book">
+                اطلب كتاب</string>
+    <string name="collect_points">
+ جمع نقاط
+        </string>
+    <string name="title_activity_main__page">Main_Page</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+
+    <string name="action_example">Example action</string>
+
+    <string name="ask_book">قم بوضع اسم او شرح الكتاب وسنقوم بتحميله باقرب وقت</string>
+    <string name="ask_question">قم بطرح سؤالك هنا وسنقوم بالرد عليك باسرع وقت</string>
+
+
+    <string name="compettion">جائزة افضل جامع للنقاط سيتم اختيار افضل جامع للنقاط عن طريق فرز مجموع النقاط للمستخدمين واختيار الاول كفائز وسيتم التواصل معه لاستلام الجائزة عبارة عن صورة الكترونية من اختياره مرسومة على برنامج الفوتوشوب بجودة 1140 hd يتم الفرز يوم الجمعة واستلام الجائزة يوم الخميس من الاسبوع المقبل</string>
+
+</resources>

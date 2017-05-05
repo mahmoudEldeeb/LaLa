@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/corner"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="@color/fax_color"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="3"
+                android:text="اسال سوال ابن ناس والنبي وخف بضانه"
+                android:textColor="@color/button"
+                android:textDirection="rtl"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/person_image"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_menu_camera"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+
+            <TextView
+                android:id="@+id/answer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="100dp"
+                android:layout_weight="4"
+                android:background="@color/white"
+                android:gravity="right"
+                android:text="هل تعلم ان الهري مفيد ف بعض الاحيان في مثل هذه الحاله فهو الحل الوحيده للخروج من المازق الذي وقعنا فيه وتقبل الراي والراي الاخر ومما لا شك فيه انه زو اهميه  حيتنا البضان هذه ولا نسنتغني عنه ف حل القضيه الفلسطينه مع الاخذ ف الاعتبار ان  ابو تريكه مش ارهابي وشيكا احسن لاعب ومكافاه حسني مبارك ع الذاي فعله ع مدار عامين من تاريخ انجازات الزمالك مع مرتضي منصور وشكر يروح امك بشتغل ليل ونهار وحملتك ف بضنها تسعه اشهر ولا يوج مثيل للاب الذي يشق من اجل لقمه واحد هلس زيك يالي بتقرا علشان راي لازم تتقبله غصب عنك ولا يوجد مثيل له ف هذه الحياه الذي يعيشها حيوان القوقازي الذي ياكل علي الكائانات الباندا التي جزء لا يتجزاء من حيوان الكسلان الذي بجوار البطريق الذي يفقش ع بيضه ويطلعنا عيل شبهك "
+                android:textColor="#2b2b2b"
+                android:textIsSelectable="false"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

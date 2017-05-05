@@ -1,0 +1,142 @@
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:orientation="vertical"
+        >
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-2817140095934646/7383194418">
+            </com.google.android.gms.ads.AdView>
+        <ImageView
+            android:id="@+id/user_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/video"
+            android:scaleType="fitXY"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:weightSum="1.5"
+            android:layout_below="@id/user_image"
+            android:id="@+id/middeld">
+
+            <Button
+                android:id="@+id/download"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:background="@color/button"
+                android:text="تحميل"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/mideltwo"
+            android:layout_below="@+id/middeld"
+            >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="iphone 6 s"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/button" />
+
+            <TextView
+                android:id="@+id/txtdesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/desc"
+                android:textColor="#000000"
+
+                />
+        </LinearLayout>
+        <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+       android:text="0 تعليق"
+            android:layout_below="@+id/mideltwo"
+            android:textColor="@color/button"
+    android:id="@+id/comments"
+    />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/comments"
+            android:background="@color/main">
+
+            <Button
+                android:id="@+id/send_comment"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/sendcomment"
+                 android:textColor="@color/white"
+
+                android:layout_marginTop="30dp"/>
+
+            <EditText
+                android:id="@+id/take_comment"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="4"
+                android:gravity="right"
+                android:hint="اكتب تعلقيك هنا"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/acountImage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/person"
+                android:gravity="right" />
+
+        </LinearLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-2817140095934646/2730838812">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,94 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/registeration">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+
+    tools:context=".fragments.login_frag"
+    android:weightSum="1">
+    <!-- TODO: Update blank fragment layout -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight=".07"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/user_image"
+        android:src="@drawable/smalllogo"
+        android:gravity="center"
+        android:layout_weight=".2"
+
+
+        />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight=".07"
+        android:visibility="invisible"/>
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:id="@+id/imageButton"
+        android:src="@drawable/cam"
+   android:layout_gravity="center"
+        android:layout_weight=".2"
+        android:background= "#00000000"
+       android:scaleType="fitXY"
+        />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight=".04"
+        android:visibility="invisible"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:id="@+id/repeat"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:visibility="invisible"
+        android:text="* هذا الاسم مستخدم من قبل"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:id="@+id/editText"
+         android:hint="اسم المستخدم"
+        android:textColor="#000000"
+        android:textColorHint="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:background= "#ea99b7"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha=".4"
+        android:layout_weight="0.04" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight=".04"
+        android:visibility="invisible"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:text="تسجيل"
+        android:id="@+id/login_btn"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#ffffff"
+
+        />
+</LinearLayout>
+</RelativeLayout>
